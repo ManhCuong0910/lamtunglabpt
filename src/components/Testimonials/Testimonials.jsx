@@ -1,5 +1,5 @@
 import Slider from 'react-slick'
-
+import Image from '../../assets/comment-avatar/Pro.jpg'
 const TestimonialData = [
   {
     id: 1,
@@ -10,19 +10,19 @@ const TestimonialData = [
   {
     id: 2,
     name: 'Điều Trần',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio',
-    img: 'https://picsum.photos/102/102'
+    text: 'Hiệu ảnh chụp hình có tâm nhất bờ hồ. Rất hài lòng về chất lượng và dịch vụ',
+    img: Image
   },
   {
     id: 3,
     name: 'Mạnh Cường',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio',
+    text: 'Mình rất hài lòng với màu sắc và chất lượng ảnh chụp profile của cửa hàng',
     img: 'https://picsum.photos/104/104'
   },
   {
     id: 5,
     name: '"Nguyễn Văn Miên',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio',
+    text: 'Tôi rất hài lòng với dịch vụ chụp ảnh thẻ của cừa hàng, dịch vụ rất chất lương và chuyên nghiệp',
     img: 'https://picsum.photos/103/103'
   }
 ]
