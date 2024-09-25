@@ -16,7 +16,7 @@ const TestimonialData = [
   {
     id: 3,
     name: 'Mạnh Cường',
-    text: 'Mình rất hài lòng với màu sắc và chất lượng ảnh chụp profile của cửa hàng',
+    text: 'Mình rất hài lòng với màu sắc và chất lượng ảnh chụp profile của cửa hàng mình',
     img: 'https://picsum.photos/104/104'
   },
   {
