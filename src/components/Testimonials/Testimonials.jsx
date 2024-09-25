@@ -21,7 +21,7 @@ const TestimonialData = [
   },
   {
     id: 5,
-    name: 'Khánh Vũ',
+    name: '"Nguyễn Văn Miên',
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio',
     img: 'https://picsum.photos/103/103'
   }
