@@ -35,19 +35,15 @@ const Banner = () => {
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <GrSecure className="w-12 h-12 p-4 text-4xl rounded-full shadow-sm bg-violet-100 dark:bg-violet-400" />
-                <p>Quality Products</p>
+                <p>Ảnh chất lượng cao</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <IoFastFood className="w-12 h-12 p-4 text-4xl bg-orange-100 rounded-full shadow-sm dark:bg-orange-400" />
-                <p>Fast Delivery</p>
+                <p>Lấy ngay sau 10 phút</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <GiFoodTruck className="w-12 h-12 p-4 text-4xl bg-green-100 rounded-full shadow-sm dark:bg-green-400" />
-                <p>Easy Payment method</p>
-              </div>
-              <div data-aos="fade-up" className="flex items-center gap-4">
-                <GiFoodTruck className="w-12 h-12 p-4 text-4xl bg-yellow-100 rounded-full shadow-sm dark:bg-yellow-400" />
-                <p>Get Offers</p>
+                <p>Đa dạng phương thức thanh toán</p>
               </div>
             </div>
           </div>

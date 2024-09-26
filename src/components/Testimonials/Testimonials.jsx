@@ -4,7 +4,7 @@ const TestimonialData = [
   {
     id: 1,
     name: 'Hiếu Bùi',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio',
+    text: 'Nơi chụp ảnh thẻ có tâm nhất mà trước đây tôi từng chụp. Rất hài lòng với chất lượng và dịch vụ',
     img: 'https://picsum.photos/101/101'
   },
   {
@@ -21,7 +21,7 @@ const TestimonialData = [
   },
   {
     id: 5,
-    name: '"Nguyễn Văn Miên',
+    name: 'Nguyễn Văn Miên',
     text: 'Tôi rất hài lòng với dịch vụ chụp ảnh thẻ của cừa hàng, dịch vụ rất chất lương và chuyên nghiệp',
     img: 'https://picsum.photos/103/103'
   }
