@@ -1,10 +1,10 @@
 import Slider from 'react-slick'
-import Image from '../../assets/hero/Dieu.png'
-
+import Image1 from '../../assets/hero/Japan1.png'
+import Image from '../../assets/hero/US1.png'
 const ImageList = [
   {
     id: 1,
-    img: Image,
+    img: Image1,
     title: 'Chụp Ảnh Thẻ Chuyên Nghiệp, Nhanh Chóng, Chất Lượng',
     description:
       'Dịch vụ chụp ảnh thẻ chuyên nghiệp, đảm bảo chất lượng cao, lấy ngay. Đáp ứng mọi tiêu chuẩn cho hồ sơ, giấy tờ.'
