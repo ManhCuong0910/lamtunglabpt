@@ -1,7 +1,7 @@
 import { GiFoodTruck } from 'react-icons/gi'
 import { GrSecure } from 'react-icons/gr'
 import { IoFastFood } from 'react-icons/io5'
-import BannerImg from '../../assets/hero/IMG_4961.png'
+import BannerImg from '../../assets/hero/Quality.jpg'
 
 const Banner = () => {
   return (

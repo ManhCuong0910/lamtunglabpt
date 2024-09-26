@@ -1,5 +1,5 @@
 import Slider from 'react-slick'
-import Image from '../../assets/hero/IMG_4961.png'
+import Image from '../../assets/hero/Dieu.png'
 
 const ImageList = [
   {
