@@ -33,7 +33,7 @@ const Menu = [
 ]
 
 // eslint-disable-next-line react/prop-types
-const Navbar = ({ handleOrderPopup }) => {
+const Navbar = () => {
   return (
     <div className="relative z-40 duration-200 bg-white shadow-md dark:bg-gray-900 dark:text-white">
       {/* upper Navbar */}
@@ -49,10 +49,7 @@ const Navbar = ({ handleOrderPopup }) => {
           {/* search bar */}
           <div className="flex items-center justify-between gap-4">
             {/* order button */}
-            <button
-              onClick={() => handleOrderPopup()}
-              className="flex items-center gap-3 px-4 py-1 text-white transition-all duration-200 rounded-full bg-gradient-to-r from-primary to-secondary group"
-            >
+            <button className="flex items-center gap-3 px-4 py-1 text-white transition-all duration-200 rounded-full bg-gradient-to-r from-primary to-secondary group">
               <span className="hidden transition-all duration-200 group-hover:block">
                 Liên hệ chụp ảnh
               </span>

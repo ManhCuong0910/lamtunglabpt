@@ -8,7 +8,6 @@ import Navbar from './components/Navbar/Navbar'
 import Popup from './components/Popup/Popup'
 import Products from './components/Products/Products'
 import Testimonials from './components/Testimonials/Testimonials'
-import TopProducts from './components/TopProducts/TopProducts'
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false)
@@ -28,10 +27,10 @@ const App = () => {
 
   return (
     <div className="duration-200 bg-white dark:bg-gray-900 dark:text-white">
-      <Navbar handleOrderPopup={handleOrderPopup} />
+      <Navbar />
       <Hero handleOrderPopup={handleOrderPopup} />
       <Products />
-      <TopProducts handleOrderPopup={handleOrderPopup} />
+      {/* <TopProducts handleOrderPopup={handleOrderPopup} /> */}
       <Banner />
       <Testimonials />
       <Footer />
