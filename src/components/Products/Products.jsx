@@ -14,17 +14,17 @@ const Products = () => {
         {/* Body section */}
         <div className="flex flex-wrap">
           <div className="w-full text-center">
-            <img src={ImageAsia} alt="" className="mx-auto" />
+            <img src={ImageAsia} alt="" className="w-[600px] mx-auto" />
             <h3 className="py-2 text-2xl font-bold">
               Visa Châu Âu, Hàn Quốc, Nhật Bản 3.5 x 4.5
             </h3>
           </div>
           <div className="w-full text-center">
-            <img src={ImagePassport} alt="" className="mx-auto" />
+            <img src={ImagePassport} alt="" className="w-[600px mx-auto" />
             <h3 className="py-2 text-2xl font-bold">Hộ Chiếu 4x6</h3>
           </div>
           <div className="w-full text-center">
-            <img src={ImageUs} alt="" className="mx-auto" />
+            <img src={ImageUs} alt="" className="w-[600px] mx-auto" />
             <h3 className="py-2 text-2xl font-bold">Visa Mỹ USA 5x5</h3>
           </div>
         </div>
