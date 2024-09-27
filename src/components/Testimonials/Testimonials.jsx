@@ -70,7 +70,7 @@ const Testimonials = () => {
     <div className="py-10 mb-10">
       <div className="container">
         {/* header section */}
-        <div className="text-center mb-10 max-w-[600px] mx-auto">
+        <div className="text-center mb-10 max-w-[600px] mx-auto mt-10">
           <p data-aos="fade-up" className="text-sm text-primary">
             Khách hàng của chúng tôi đã hài lòng với dịch vụ như thế nào ?
           </p>

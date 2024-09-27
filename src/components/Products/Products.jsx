@@ -1,51 +1,6 @@
-import Img1 from '../../assets/women/women.png'
-import Img2 from '../../assets/women/women2.jpg'
-import Img3 from '../../assets/women/women3.jpg'
-import Img4 from '../../assets/women/women4.jpg'
-
-const ProductsData = [
-  {
-    id: 1,
-    img: Img1,
-    title: 'Chụp Ảnh Thẻ Làm Passport',
-    rating: 5.0,
-    color: 'white',
-    aosDelay: '0'
-  },
-  {
-    id: 2,
-    img: Img2,
-    title: 'Chụp Ảnh Thẻ Làm Visa',
-    rating: 4.5,
-    color: 'Red',
-    aosDelay: '200'
-  },
-  {
-    id: 3,
-    img: Img3,
-    title: 'Chụp Ảnh Profile Cá Nhân',
-    rating: 4.7,
-    color: 'brown',
-    aosDelay: '400'
-  },
-  {
-    id: 4,
-    img: Img4,
-    title: 'Chụp Ảnh Thẻ Cho Bé',
-    rating: 4.4,
-    color: 'Yellow',
-    aosDelay: '600'
-  },
-  {
-    id: 5,
-    img: Img2,
-    title: 'Chụp Ảnh Thẻ Làm Bằng Lái',
-    rating: 4.5,
-    color: 'Pink',
-    aosDelay: '800'
-  }
-]
-
+import ImageAsia from '../../assets/servive/asia.jpg'
+import ImagePassport from '../../assets/servive/passport.jpg'
+import ImageUs from '../../assets/servive/us.jpg'
 const Products = () => {
   return (
     <div className="mb-12 mt-14">
@@ -57,32 +12,31 @@ const Products = () => {
           </h1>
         </div>
         {/* Body section */}
-        <div>
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 place-items-center">
-            {/* card section */}
-            {ProductsData.map((data) => (
-              <div
-                data-aos="fade-up"
-                data-aos-delay={data.aosDelay}
-                key={data.id}
-                className="space-y-3"
-              >
-                <img
-                  src={data.img}
-                  alt=""
-                  className="h-[220px] w-[150px] object-cover rounded-md"
-                />
-                <div>
-                  <h3 className="font-semibold">{data.title}</h3>
-                </div>
-              </div>
-            ))}
+        <div className="flex flex-wrap">
+          <div className="w-full text-center">
+            <img src={ImageAsia} alt="" className="mx-auto" />
+            <h3 className="py-2 text-2xl font-bold">
+              Visa Châu Âu, Hàn Quốc, Nhật Bản 3.5 x 4.5
+            </h3>
           </div>
+          <div className="w-full text-center">
+            <img src={ImagePassport} alt="" className="mx-auto" />
+            <h3 className="py-2 text-2xl font-bold">Hộ Chiếu 4x6</h3>
+          </div>
+          <div className="w-full text-center">
+            <img src={ImageUs} alt="" className="mx-auto" />
+            <h3 className="py-2 text-2xl font-bold">Visa Mỹ USA 5x5</h3>
+          </div>
+        </div>
+        <div>
           {/* view all button */}
           <div className="flex justify-center">
-            <button className="px-5 py-1 mt-10 text-center text-white rounded-md cursor-pointer bg-primary">
+            <a
+              href="https://zalo.me/0336224042"
+              className="px-5 py-1 mt-10 text-center text-white rounded-md cursor-pointer bg-primary"
+            >
               Xem thêm
-            </button>
+            </a>
           </div>
         </div>
       </div>

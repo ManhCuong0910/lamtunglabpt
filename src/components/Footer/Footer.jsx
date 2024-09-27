@@ -1,7 +1,6 @@
 import {
   FaFacebook,
   FaInstagram,
-  FaLinkedin,
   FaLocationArrow,
   FaMobileAlt
 } from 'react-icons/fa'
@@ -19,7 +18,7 @@ const BannerImg = {
 
 const FooterLinks = [
   {
-    title: 'Home',
+    title: 'Trang chủ',
     link: '/#'
   },
   {
@@ -47,31 +46,12 @@ const Footer = () => {
               <img src={footerLogo} alt="" className="max-w-[50px]" />
               LamTungLab
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
-            </p>
+            <p>Chụp ảnh thẻ đẹp Hà Nội Chụp ảnh thẻ lấy ngay Hà Nội</p>
           </div>
 
           {/* Footer Links */}
           <div className="grid grid-cols-2 col-span-2 sm:grid-cols-3 md:pl-10">
-            <div>
-              <div className="px-4 py-8">
-                <h1 className="mb-3 text-xl font-bold text-justify sm:text-xl sm:text-left">
-                  Important Links
-                </h1>
-                <ul className="flex flex-col gap-3">
-                  {FooterLinks.map((link) => (
-                    <li
-                      className="text-gray-200 duration-300 cursor-pointer hover:text-primary hover:translate-x-1"
-                      key={link.title}
-                    >
-                      <span>{link.title}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
+            <div></div>
             <div>
               <div className="px-4 py-8">
                 <h1 className="mb-3 text-xl font-bold text-justify sm:text-xl sm:text-left">
@@ -99,9 +79,6 @@ const Footer = () => {
                 </a>
                 <a href="#">
                   <FaFacebook className="text-3xl" />
-                </a>
-                <a href="#">
-                  <FaLinkedin className="text-3xl" />
                 </a>
               </div>
               <div className="mt-6">

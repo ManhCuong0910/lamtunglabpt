@@ -49,12 +49,19 @@ const Navbar = () => {
           {/* search bar */}
           <div className="flex items-center justify-between gap-4">
             {/* order button */}
-            <button className="flex items-center gap-3 px-4 py-1 text-white transition-all duration-200 rounded-full bg-gradient-to-r from-primary to-secondary group">
-              <span className="hidden transition-all duration-200 group-hover:block">
+
+            <a
+              href="https://zalo.me/0336224042"
+              className="flex items-center gap-3 px-4 py-1 text-white transition-all duration-200 rounded-full bg-gradient-to-r from-primary to-secondary group"
+            >
+              <a
+                href="https://zalo.me/0336224042"
+                className="hidden transition-all duration-200 group-hover:block"
+              >
                 Liên hệ chụp ảnh
-              </span>
+              </a>
               <CiCamera className="text-xl text-white cursor-pointer drop-shadow-sm" />
-            </button>
+            </a>
           </div>
         </div>
       </div>
