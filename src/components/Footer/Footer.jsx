@@ -22,16 +22,12 @@ const FooterLinks = [
     link: '/#'
   },
   {
-    title: 'About',
+    title: 'Về chúng tôi',
     link: '/#about'
   },
   {
-    title: 'Contact',
+    title: 'Liên hệ',
     link: '/#contact'
-  },
-  {
-    title: 'Blog',
-    link: '/#blog'
   }
 ]
 
@@ -51,7 +47,6 @@ const Footer = () => {
 
           {/* Footer Links */}
           <div className="grid grid-cols-2 col-span-2 sm:grid-cols-3 md:pl-10">
-            <div></div>
             <div>
               <div className="px-4 py-8">
                 <h1 className="mb-3 text-xl font-bold text-justify sm:text-xl sm:text-left">
